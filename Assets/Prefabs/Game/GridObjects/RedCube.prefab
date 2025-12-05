@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8860399611b143099297fd4e886da135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridPlaceableType: 2
+  goalType: 1
 --- !u!61 &6584510787518411084
 BoxCollider2D:
   m_ObjectHideFlags: 0

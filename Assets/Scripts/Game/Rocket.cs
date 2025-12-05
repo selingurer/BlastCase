@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿
+
+using UnityEngine;
 
 namespace Game
 {
-    public class Rocket: GridPlaceable, IGoal
+    public class Rocket: MonoBehaviour, IGridPlaceable
     {
       
     }

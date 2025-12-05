@@ -1,9 +1,10 @@
-﻿using UnityEngine;
-
-namespace Game
+﻿namespace Game
 {
-    public class Cube : GridPlaceable, IGoal
-    {
+    using ScriptableObject;
+    using UnityEngine;
 
+    public class Cube : GoalBase, IGridPlaceable
+    {
+        public override GoalType GoalType { get => goalType; }
     }
 }

@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3650867899008133202}
   - component: {fileID: 621235132845729910}
-  - component: {fileID: 1839260549422016726}
   - component: {fileID: 4893303844863792693}
+  - component: {fileID: 2064923001141399898}
   m_Layer: 0
   m_Name: Balloon
   m_TagString: Untagged
@@ -93,19 +93,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1839260549422016726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6725511727738651112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84eb9a345f0e4ecdb5a44034205bb083, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gridPlaceableType: 5
 --- !u!61 &4893303844863792693
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,3 +139,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.02}
   m_EdgeRadius: 0
+--- !u!114 &2064923001141399898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6725511727738651112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84eb9a345f0e4ecdb5a44034205bb083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalType: 5

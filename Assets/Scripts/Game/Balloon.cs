@@ -1,7 +1,10 @@
 ﻿namespace Game
 {
-    public class Balloon : GridPlaceable , IGoal
+    using ScriptableObject;
+    using UnityEngine;
+
+    public class Balloon : GoalBase, IGridPlaceable
     {
-       
+        public override GoalType GoalType { get => goalType; }
     }
 }

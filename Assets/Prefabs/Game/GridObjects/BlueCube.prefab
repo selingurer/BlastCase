@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1502800573678025911}
   - component: {fileID: 7470522459141087653}
   - component: {fileID: 6561749319917824684}
-  - component: {fileID: 2627347421603498029}
+  - component: {fileID: 3336211766837924960}
   m_Layer: 0
   m_Name: BlueCube
   m_TagString: Untagged
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1.2}
   m_EdgeRadius: 0
---- !u!114 &2627347421603498029
+--- !u!114 &3336211766837924960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,4 +151,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8860399611b143099297fd4e886da135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridPlaceableType: 0
